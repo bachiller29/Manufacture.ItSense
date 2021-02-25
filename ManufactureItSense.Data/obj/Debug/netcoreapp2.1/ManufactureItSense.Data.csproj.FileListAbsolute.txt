@@ -1,0 +1,17 @@
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\bin\Debug\netcoreapp2.1\ManufactureItSense.Data.deps.json
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\bin\Debug\netcoreapp2.1\ManufactureItSense.Data.dll
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\obj\Debug\netcoreapp2.1\ManufactureItSense.Data.csprojAssemblyReference.cache
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\obj\Debug\netcoreapp2.1\ManufactureItSense.Data.AssemblyInfoInputs.cache
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\obj\Debug\netcoreapp2.1\ManufactureItSense.Data.AssemblyInfo.cs
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\bin\Debug\netcoreapp2.1\ManufactureItSense.Data.runtimeconfig.json
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\bin\Debug\netcoreapp2.1\ManufactureItSense.Data.runtimeconfig.dev.json
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\bin\Debug\netcoreapp2.1\ManufactureItSense.Data.pdb
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\bin\Debug\netcoreapp2.1\ManufactureItSense.Business.dll
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\bin\Debug\netcoreapp2.1\ManufactureItSense.Model.dll
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\bin\Debug\netcoreapp2.1\ManufactureItSense.Business.pdb
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\bin\Debug\netcoreapp2.1\ManufactureItSense.Model.pdb
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\obj\Debug\netcoreapp2.1\ManufactureItSense.Data.csproj.CoreCompileInputs.cache
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\obj\Debug\netcoreapp2.1\ManufactureItSense.Data.csproj.CopyComplete
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\obj\Debug\netcoreapp2.1\ManufactureItSense.Data.dll
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\obj\Debug\netcoreapp2.1\ManufactureItSense.Data.pdb
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Data\obj\Debug\netcoreapp2.1\ManufactureItSense.Data.genruntimeconfig.cache

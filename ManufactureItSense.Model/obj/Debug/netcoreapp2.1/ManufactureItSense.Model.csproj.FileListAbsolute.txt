@@ -1,0 +1,9 @@
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Model\bin\Debug\netcoreapp2.1\ManufactureItSense.Model.deps.json
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Model\bin\Debug\netcoreapp2.1\ManufactureItSense.Model.dll
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Model\bin\Debug\netcoreapp2.1\ManufactureItSense.Model.pdb
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Model\obj\Debug\netcoreapp2.1\ManufactureItSense.Model.csprojAssemblyReference.cache
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Model\obj\Debug\netcoreapp2.1\ManufactureItSense.Model.AssemblyInfoInputs.cache
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Model\obj\Debug\netcoreapp2.1\ManufactureItSense.Model.AssemblyInfo.cs
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Model\obj\Debug\netcoreapp2.1\ManufactureItSense.Model.csproj.CoreCompileInputs.cache
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Model\obj\Debug\netcoreapp2.1\ManufactureItSense.Model.dll
+C:\Users\wsbachiller\source\repos\Manufacture.ItSense\ManufactureItSense.Model\obj\Debug\netcoreapp2.1\ManufactureItSense.Model.pdb

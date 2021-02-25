@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "ManufactureItSense.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/ManufactureItSense.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManufactureItSense.Model.dll": {}
+        }
       }
     }
   },
@@ -681,10 +691,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "ManufactureItSense.Model/1.0.0": {
+      "type": "project",
+      "path": "../ManufactureItSense.Model/ManufactureItSense.Model.csproj",
+      "msbuildProject": "../ManufactureItSense.Model/ManufactureItSense.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "ManufactureItSense.Model >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -713,7 +729,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Model\\ManufactureItSense.Model.csproj": {
+              "projectPath": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Model\\ManufactureItSense.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

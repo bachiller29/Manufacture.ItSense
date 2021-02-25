@@ -4,6 +4,65 @@
     "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Data\\ManufactureItSense.Data.csproj": {}
   },
   "projects": {
+    "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Business\\ManufactureItSense.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Business\\ManufactureItSense.Business.csproj",
+        "projectName": "ManufactureItSense.Business",
+        "projectPath": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Business\\ManufactureItSense.Business.csproj",
+        "packagesPath": "C:\\Users\\wsbachiller\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wsbachiller\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Model\\ManufactureItSense.Model.csproj": {
+                "projectPath": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Model\\ManufactureItSense.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Data\\ManufactureItSense.Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +71,86 @@
         "projectPath": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Data\\ManufactureItSense.Data.csproj",
         "packagesPath": "C:\\Users\\wsbachiller\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wsbachiller\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Business\\ManufactureItSense.Business.csproj": {
+                "projectPath": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Business\\ManufactureItSense.Business.csproj"
+              },
+              "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Model\\ManufactureItSense.Model.csproj": {
+                "projectPath": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Model\\ManufactureItSense.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Model\\ManufactureItSense.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Model\\ManufactureItSense.Model.csproj",
+        "projectName": "ManufactureItSense.Model",
+        "projectPath": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Model\\ManufactureItSense.Model.csproj",
+        "packagesPath": "C:\\Users\\wsbachiller\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wsbachiller\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -4333,6 +4333,46 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "ManufactureItSense.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "ManufactureItSense.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ManufactureItSense.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManufactureItSense.Business.dll": {}
+        }
+      },
+      "ManufactureItSense.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "ManufactureItSense.Business": "1.0.0",
+          "ManufactureItSense.Model": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/ManufactureItSense.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManufactureItSense.Data.dll": {}
+        }
+      },
+      "ManufactureItSense.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/ManufactureItSense.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManufactureItSense.Model.dll": {}
+        }
       }
     }
   },
@@ -11870,10 +11910,26 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "ManufactureItSense.Business/1.0.0": {
+      "type": "project",
+      "path": "../ManufactureItSense.Business/ManufactureItSense.Business.csproj",
+      "msbuildProject": "../ManufactureItSense.Business/ManufactureItSense.Business.csproj"
+    },
+    "ManufactureItSense.Data/1.0.0": {
+      "type": "project",
+      "path": "../ManufactureItSense.Data/ManufactureItSense.Data.csproj",
+      "msbuildProject": "../ManufactureItSense.Data/ManufactureItSense.Data.csproj"
+    },
+    "ManufactureItSense.Model/1.0.0": {
+      "type": "project",
+      "path": "../ManufactureItSense.Model/ManufactureItSense.Model.csproj",
+      "msbuildProject": "../ManufactureItSense.Model/ManufactureItSense.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "ManufactureItSense.Data >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0"
@@ -11904,7 +11960,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Data\\ManufactureItSense.Data.csproj": {
+              "projectPath": "C:\\Users\\wsbachiller\\source\\repos\\Manufacture.ItSense\\ManufactureItSense.Data\\ManufactureItSense.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

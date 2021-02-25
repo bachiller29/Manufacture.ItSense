@@ -2,10 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ManufactureItSense.Business.Interfaces.Repositories;
+using ManufactureItSense.Business.Interfaces.Services;
+using ManufactureItSense.Business.Services;
+using ManufactureItSense.Data;
+using ManufactureItSense.Data.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -25,7 +31,13 @@ namespace ManufactureItSense.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ManufactureItSenseContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("ManufactureItSenseConnection")));
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddScoped(typeof(IProductsService), typeof(ProductsServices));
+            services.AddScoped(typeof(IProductsRepository), typeof(ProductsRepository));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +51,13 @@ namespace ManufactureItSense.WebApi
             {
                 app.UseHsts();
             }
+
+            app.UseCors(builder => builder
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .SetIsOriginAllowed((host) => true)
+                .AllowCredentials()
+            );
 
             app.UseHttpsRedirection();
             app.UseMvc();

@@ -38,6 +38,9 @@ namespace ManufactureItSense.WebApi
 
             services.AddScoped(typeof(IProductsService), typeof(ProductsServices));
             services.AddScoped(typeof(IProductsRepository), typeof(ProductsRepository));
+
+            services.AddScoped(typeof(IInventoryService), typeof(InventoryServices));
+            services.AddScoped(typeof(IInventoryRepository), typeof(InventoryRepository));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

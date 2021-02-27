@@ -3,17 +3,16 @@ using ManufactureItSense.Model;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ManufactureItSense.Data.Repositories
 {
-    public class ProductsRepository : IProductsRepository
+    public class InventoryRepository : IInventoryRepository
     {
         private readonly ManufactureItSenseContext _context;
 
-        public ProductsRepository(ManufactureItSenseContext context)
+        public InventoryRepository(ManufactureItSenseContext context)
         {
             _context = context;
         }
@@ -23,29 +22,27 @@ namespace ManufactureItSense.Data.Repositories
             _context.Dispose();
         }
 
-        public Products CreateProducs(Products products)
+        public Inventory CreateInventory(Inventory inventory)
         {
-            _context.Products.Add(products);
+            _context.Inventory.Add(inventory);
             _context.SaveChanges();
-            return products;
+            return inventory;
         }
 
-        public void UpdateState(Products products)
+        public void UpdateInventory(Inventory inventory)
         {
-            _context.Update(products);
+            _context.Update(inventory);
             _context.SaveChanges();
         }
 
-        public async Task<IEnumerable<Products>> GetAllProducts()
+        public async Task<IEnumerable<Inventory>> GetAllInventory()
         {
-            return await _context.Products.ToListAsync();
+            return await _context.Inventory.ToListAsync();
         }
 
-        public Products GetProductsById(int id)
+        public Inventory GetInventoryById(int id)
         {
-            return _context.Products.Find(id);
+            return _context.Inventory.Find(id);
         }
-
-        
     }
 }

@@ -13,5 +13,7 @@ namespace ManufactureItSense.Business.Interfaces.Repositories
         void UpdateState(Products products);
 
         Task<IEnumerable<Products>> GetAllProducts();
+
+        Products GetProductsById(int id);
     }
 }

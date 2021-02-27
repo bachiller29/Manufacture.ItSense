@@ -28,6 +28,12 @@ namespace ManufactureItSense.Business.Services
             return await _repo.GetAllProducts();
         }
 
+
+        public Products GetProductsById(int id)
+        {
+            return _repo.GetProductsById(id);
+        }
+
         public void UpdateState(Products products)
         {
             _repo.UpdateState(products);

@@ -29,7 +29,13 @@ namespace ManufactureItSense.WebApi.Controllers
             var result = await _productsService.GetAllProducts();
             return result.ToList();
         }
-        
+
+        [HttpGet("{id}")]
+        public Products GetProductByID(int id)
+        {
+            var result = _productsService.GetProductsById(id);
+            return result;
+        }
 
         // POST api/<ProductsController>
         [HttpPost]

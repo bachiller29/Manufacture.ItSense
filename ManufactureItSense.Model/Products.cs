@@ -15,7 +15,10 @@ namespace ManufactureItSense.Model
         [Column("NameProduc")]
         public string NameProduc { get; set; }
 
-        [Column("StateProduc")]
-        public string StateProduc { get; set; }
+        [Column("Description")]
+        public string Description { get; set; }
+
+        [Column("Price")]
+        public int Price { get; set; }
     }
 }

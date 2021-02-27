@@ -14,10 +14,7 @@ namespace ManufactureItSense.Data
         }
 
         public DbSet<Products> Products { get; set; }
+        public DbSet<Inventory> Inventory { get; set; }
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<Products>().ToTable("Products");
-        //}
     }
 }
